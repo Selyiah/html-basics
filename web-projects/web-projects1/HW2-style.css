@@ -1,0 +1,102 @@
+/* this CSS includes both 'HW2' and 'next' html pages */ 
+
+header nav {
+    word-spacing: 10px;
+    font-size: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    border: 10px inset;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    background-color: black; 
+    color: white; 
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    text-align: center;
+    font-size: 18px; 
+}
+
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-top: 50px;
+}
+
+.grid-content img {
+    max-width: 80%;
+    height: auto; 
+    display: block;
+    margin-left: 37px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    background-color: black;
+    margin-bottom: 0px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+iframe {
+    padding: 50px;
+    display: block; /* these two lines center a video */
+    margin: 0 auto;
+}
+
+.image-container {
+    display: block;
+}
+
+.image-container img {
+    display: block; 
+    width: 100%;
+    height: auto;
+    padding-top: 5px
+}
+
+.overlay-text {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    top: 180px;
+    left: 60px;
+}
+
+h3 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px; 
+}
+
+p1 { 
+    color: white; 
+    font-weight: bold; 
+    text-align: center;
+    font-size: 14px; 
+}
+
+body {
+    margin: 5px;
+}
