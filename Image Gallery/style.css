@@ -1,0 +1,36 @@
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery img { /* 'img' isolates the image only in terms of measurements/positioning */ 
+    width: 100%; /* this measurement takes up the whole screen */
+    height: auto; /* this ensures the image isn't squished and vice versa for witdth */
+    justify-content: space-between;
+
+}
+
+.responsive { /* responsive means creating pages that looks for good on all devices */ 
+    padding: 0 6px;
+    float: right; 
+    width: 33.3%;
+}
+
+* { /* the star * means universal applies to everything */
+    box-sizing: border-box;
+}
+
+.desc {
+    padding: 15px; 
+    text-align: center; 
+}
+
+div.gallery:hover {  /* hover means your mouse hovers over the item creating user interaction */ 
+    border: 1px solid #777;
+}
+
+@media_only screen and (max-width: 700px) 
+      .responsive {  /* for ipad, laptop, phone measurements for example */ 
+        width: 49.9%;
+        margin: 6px 0;
+      }
+      
