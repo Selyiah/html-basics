@@ -22,8 +22,7 @@ h1 {
 }
 
 .container {
-    position: absolute;
-    margin-left: 300px;
+    position: relative;
     font-family: 'Poppins', sans-serif;
 }
 
